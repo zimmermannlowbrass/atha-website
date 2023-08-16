@@ -1,8 +1,7 @@
-import React, { useRef, useEffect } from 'react';
-import { Container, Row } from 'reactstrap';
-import "./header.css"
+import React from 'react';
+import "./navbar.css"
 
-function Header() {
+function Navbar() {
 
   const nav__links = [
     {
@@ -29,8 +28,7 @@ function Header() {
   };
   
   return (
-    <Container>
-      <Row>
+    <section>
       {nav__links.map((item, index) => (
         <li className='nav__item' key={index}>
           <a
@@ -41,9 +39,8 @@ function Header() {
           </a>
         </li>
       ))}
-      </Row>
-    </Container>
+    </section>
   )
 }
 
-export default Header;
+export default Navbar;
