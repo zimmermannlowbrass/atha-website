@@ -1,7 +1,8 @@
-.bouncing-name {
+.header > div{
     position: relative;
     display: inline-flex;
     font-size: 3rem;
+    margin: 1rem;
 }
 
 @keyframes bounce {
@@ -11,61 +12,61 @@
         50%  { transform: scale(1.05,.95) translateY(0); }
         58%  { transform: scale(1,1) translateY(-7px); }
         65%  { transform: scale(1,1) translateY(0);}
-        100% { transform: scale(1,1) translateY(0);}
+        80% { transform: scale(1,1) translateY(0);}
     }
 
 .b {
-  animation: bounce 3s ease infinite;
+  animation: bounce 4s ease infinite;
 }
 
 .a {
-  animation: bounce 3s ease infinite .1s;
+  animation: bounce 4s ease infinite .1s;
 }
 
 .t {
-  animation: bounce 3s ease infinite .2s;
+  animation: bounce 4s ease infinite .2s;
 }
 
 .g {
-  animation: bounce 3s ease infinite .3s;
+  animation: bounce 4s ease infinite .3s;
 }
 
 .i {
-  animation: bounce 3s ease infinite .4s;
+  animation: bounce 4s ease infinite .4s;
 }
 
 .r {
-  animation: bounce 3s ease infinite .5s;
+  animation: bounce 4s ease infinite .5s;
 }
 
 .l {
-  animation: bounce 3s ease infinite .6s;
+  animation: bounce 4s ease infinite .6s;
 }
 
 .q {
-  animation: bounce 3s ease infinite .7s;
+  animation: bounce 4s ease infinite 2.1s;
 }
 
 .u {
-  animation: bounce 3s ease infinite .8s;
+  animation: bounce 4s ease infinite 2.2s;
 }
 
 .i2 {
-  animation: bounce 3s ease infinite .9s;
+  animation: bounce 4s ease infinite 2.3s;
 }
 
 .l2 {
-  animation: bounce 3s ease infinite 1s;
+  animation: bounce 4s ease infinite 2.4s;
 }
 
 .t2 {
-  animation: bounce 3s ease infinite 1.1s;
+  animation: bounce 4s ease infinite 2.5s;
 }
 
 .s {
-  animation: bounce 3s ease infinite 1.2s;
+  animation: bounce 4s ease infinite 2.6s;
 }
 
 .e-point {
-  animation: bounce 3s ease infinite 1.3s;
+  animation: bounce 4s ease infinite 2.7s;
 }

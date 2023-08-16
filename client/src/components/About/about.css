@@ -1,5 +1,4 @@
 .about {
-    width: 100%;
     display: flex;
 }
 
@@ -17,4 +16,8 @@
   100% {
     transform: translateX(0);
   }
+}
+
+.meet-the-artist {
+  width: 40%;
 }

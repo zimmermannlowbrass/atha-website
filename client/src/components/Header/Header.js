@@ -13,6 +13,9 @@ function Header() {
                 <div class="i">I</div>
                 <div class="r">R</div>
                 <div class="l">L</div>
+            </div>
+            <br/>
+            <div className="bouncing-quilt">
                 <div class="q">Q</div>
                 <div class="u">U</div>
                 <div class="i2">I</div>
