@@ -7,7 +7,7 @@ function About() {
         <section className="about">
             <img className="about-picture" src={PIC} alt="atha"/>
             <h1>
-                BATGIRL QUILTS
+                This is the about section
             </h1>
         </section>
     )
