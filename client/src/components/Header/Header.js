@@ -6,23 +6,23 @@ function Header() {
     return (
         <section className="header">
             <div className="bouncing-name">
-                <div class="b">B</div>
-                <div class="a">A</div>
-                <div class="t">T</div>
-                <div class="g">G</div>
-                <div class="i">I</div>
-                <div class="r">R</div>
-                <div class="l">L</div>
+                <div className="b">B</div>
+                <div className="a">A</div>
+                <div className="t">T</div>
+                <div className="g">G</div>
+                <div className="i">I</div>
+                <div className="r">R</div>
+                <div className="l">L</div>
             </div>
             <br/>
             <div className="bouncing-quilt">
-                <div class="q">Q</div>
-                <div class="u">U</div>
-                <div class="i2">I</div>
-                <div class="l2">L</div>
-                <div class="t2">T</div>
-                <div class="s">S</div>
-                <div class="e-point">!</div>
+                <div className="q">Q</div>
+                <div className="u">U</div>
+                <div className="i2">I</div>
+                <div className="l2">L</div>
+                <div className="t2">T</div>
+                <div className="s">S</div>
+                <div className="e-point">!</div>
             </div>
         </section>
     )
